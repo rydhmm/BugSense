@@ -1,0 +1,8 @@
+com\bugsense\controller\AnalyzerController.class
+com\bugsense\dto\AnalysisResult.class
+com\bugsense\service\ParserService.class
+com\bugsense\service\LexerService$Token.class
+com\bugsense\service\SemanticService.class
+com\bugsense\BugSenseApplication.class
+com\bugsense\model\ErrorMessage.class
+com\bugsense\service\LexerService.class

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BugSense – C Error Detector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🐛 BugSense</h1>
+    <p>Paste your C code below to detect errors</p>
+  </header>
+
+  <main>
+    <div class="editor-panel">
+      <label>C Source Code</label>
+      <textarea id="codeInput" spellcheck="false" placeholder="Write or paste C code here..."></textarea>
+      <button id="analyzeBtn" onclick="analyzeCode()">🔍 Analyze Code</button>
+    </div>
+
+    <div class="result-panel">
+      <label>Analysis Results</label>
+      <div id="results">
+        <p class="placeholder">Results will appear here...</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
