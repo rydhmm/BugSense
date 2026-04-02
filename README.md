@@ -2,11 +2,6 @@
 
 A simplified compiler front-end that detects and explains common C programming errors.
 
-## Team Avengers
-- Sushil Khanna (Team Lead)
-- Saurav Beri
-- Aditya
-- Anurag Kaushik
 
 ## Features
 - 🔵 Lexical Analysis — detects invalid characters, unterminated strings
